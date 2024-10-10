@@ -17,15 +17,15 @@ let fijo2 = new Cl_fijo ("Carolina", 40, 90);
 let salida = document.getElementById("salida");
 
 salida.innerHTML= `
-Nombre del profesor fijo: ${fijo1.nombre}
-<br>Monto del bono: ${fijo1.bono}
-<br>Monto del sueldo: ${fijo1.montoSueldo()}
-<br>Ingreso total del profesor: ${fijo1.ingresoTotal()}
+Nombre del profesor fijo: ${fijo1.nombre}$
+<br>Monto del bono: ${fijo1.bono}$
+<br>Monto del sueldo: ${fijo1.montoSueldo()}$
+<br>Ingreso total del profesor: ${fijo1.ingresoTotal()}$
 <br><br>
 <br>Nombre del profesor fijo: ${fijo2.nombre}
-<br>Monto del bono:${fijo2.bono}
-<br>Monto del sueldo:${fijo2.montoSueldo()}
-<br>Ingreso total del profesor ${fijo2.ingresoTotal()}`;
+<br>Monto del bono:${fijo2.bono}$
+<br>Monto del sueldo:${fijo2.montoSueldo()}$
+<br>Ingreso total del profesor ${fijo2.ingresoTotal()}`+"$";
 
 
 
