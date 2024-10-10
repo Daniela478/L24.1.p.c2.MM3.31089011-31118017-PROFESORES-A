@@ -17,7 +17,7 @@ let fijo2 = new Cl_fijo ("Carolina", 40, 90);
 let salida = document.getElementById("salida");
 
 salida.innerHTML= `
-Nombre del profesor fijo: ${fijo1.nombre}$
+Nombre del profesor fijo: ${fijo1.nombre}
 <br>Monto del bono: ${fijo1.bono}$
 <br>Monto del sueldo: ${fijo1.montoSueldo()}$
 <br>Ingreso total del profesor: ${fijo1.ingresoTotal()}$
